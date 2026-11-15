@@ -1,0 +1,54 @@
+{
+  "license": "SIL Open Font License 1.1. Fonts are excluded from the code MIT license.",
+  "upstream": "https://github.com/google/fonts",
+  "files": [
+    {
+      "file": "Anton-Regular.ttf",
+      "sha256": "a4ba3a92350ebb031da0cb47630ac49eb265082ca1bc0450442f4a83ab947cab",
+      "bytes": 170812
+    },
+    {
+      "file": "DMSans-400-static.ttf",
+      "sha256": "13791a79589e51a9e1d9a46b65f7613b94b02a4519b0b1f9a693bd3d378b27f4",
+      "bytes": 56852
+    },
+    {
+      "file": "DMSans-700-static.ttf",
+      "sha256": "ca4f49002642023f988eb569692e55128593782bd551b26211c2afda69c0a472",
+      "bytes": 56800
+    },
+    {
+      "file": "DMSans-800-static.ttf",
+      "sha256": "141efb4f8dd9918c8bfff16d631865bf7734f77f47e6be27fd3ad0c95c12054c",
+      "bytes": 56796
+    },
+    {
+      "file": "DMSans-600-Italic-static.ttf",
+      "sha256": "22c0a31d6b110912169f727a8c1236fef1a61705e52a1fd233377d9f52ceb02b",
+      "bytes": 61240
+    },
+    {
+      "file": "OFL-Anton.txt",
+      "sha256": "ee67e6ee22790b7929f1a3769ca2801d565c64b5a9096942c1adf5596de9c9e4",
+      "bytes": 4484
+    },
+    {
+      "file": "OFL-DMSans.txt",
+      "sha256": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1",
+      "bytes": 4482
+    }
+  ],
+  "font_sources": {
+    "Anton-Regular.ttf": "https://raw.githubusercontent.com/google/fonts/main/ofl/anton/Anton-Regular.ttf",
+    "DMSans-static-fonts": "https://github.com/google/fonts/tree/main/ofl/dmsans"
+  },
+  "italic_derivation": {
+    "source": "DMSans-Italic[opsz,wght].ttf",
+    "source_sha256": "22259c0cc8237221b80f44c76ba8d36e6bce3cda72779f5b2773643d499720ae",
+    "axes": {
+      "opsz": 9,
+      "wght": 600
+    },
+    "method": "fontTools instantiateVariableFont; updateFontNames=True"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "canvas": {"width": 1080, "height": 1920, "background": "#101826", "safe_rect": [0.07, 0.07, 0.93, 0.88]},
+  "fonts": {
+    "display": "fonts/Anton-Regular.ttf",
+    "support": "fonts/DMSans-700-static.ttf",
+    "strong": "fonts/DMSans-800-static.ttf",
+    "italic": "fonts/DMSans-600-Italic-static.ttf"
+  },
+  "shots": [
+    {
+      "id": "hierarchy", "start": 0, "end": 4,
+      "source_text": "Make one idea impossible to miss.", "preserve_text": true,
+      "parts": [
+        {"text": "MAKE ONE IDEA", "role": "support", "font": "support", "size": 0.037, "rect": [0.10, 0.23, 0.90, 0.32], "color": "#e7edf4", "plane": "foreground", "in": 0, "out": 4},
+        {"text": "IMPOSSIBLE", "role": "hero", "font": "display", "size": 0.108, "rect": [0.08, 0.34, 0.92, 0.54], "color": "#f4d35e", "plane": "surface", "in": 0.15, "out": 4, "motion": {"kind": "scale", "duration": 0.35}},
+        {"text": "to miss.", "role": "accent", "font": "italic", "size": 0.06, "rect": [0.21, 0.57, 0.79, 0.69], "color": "#e7edf4", "plane": "foreground", "in": 0.5, "out": 4}
+      ]
+    },
+    {
+      "id": "perspective", "start": 4, "end": 8,
+      "source_text": "Give your words another dimension.", "preserve_text": true,
+      "parts": [
+        {"text": "GIVE YOUR WORDS", "role": "support", "font": "strong", "size": 0.036, "rect": [0.10, 0.23, 0.90, 0.32], "color": "#e7edf4", "plane": "foreground", "in": 0, "out": 4},
+        {"text": "another", "role": "accent", "font": "italic", "size": 0.056, "rect": [0.15, 0.34, 0.85, 0.44], "color": "#76d7ca", "plane": "foreground", "in": 0.2, "out": 4},
+        {"text": "DIMENSION", "role": "hero", "font": "display", "size": 0.11, "rect": [0.10, 0.46, 0.90, 0.65], "quad": [[0.11, 0.50], [0.89, 0.44], [0.87, 0.66], [0.13, 0.69]], "color": "#10182600", "outline": {"width_px": 4, "color": "#f4d35e"}, "plane": "surface", "in": 0.35, "out": 4, "motion": {"kind": "perspective", "duration": 0.4}}
+      ]
+    },
+    {
+      "id": "contrast", "start": 8, "end": 12,
+      "source_text": "Less noise. More meaning.", "preserve_text": true,
+      "parts": [
+        {"text": "LESS NOISE.", "role": "support", "font": "strong", "size": 0.045, "rect": [0.13, 0.26, 0.87, 0.37], "color": "#e7edf4", "plane": "surface", "in": 0, "out": 4},
+        {"text": "More", "role": "accent", "font": "italic", "size": 0.065, "rect": [0.17, 0.39, 0.83, 0.51], "color": "#76d7ca", "plane": "foreground", "in": 0.2, "out": 4},
+        {"text": "MEANING.", "role": "hero", "font": "display", "size": 0.12, "rect": [0.10, 0.53, 0.90, 0.73], "color": "#f4d35e", "plane": "surface", "in": 0.4, "out": 4, "rotate_deg": -3}
+      ]
+    }
+  ]
+}

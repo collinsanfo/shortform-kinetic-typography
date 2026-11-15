@@ -1,0 +1,4 @@
+interface:
+  display_name: "Shortform Kinetic Typography"
+  short_description: "Compose expressive text for short-form videos"
+  default_prompt: "Use $shortform-kinetic-typography to give this video expressive text hierarchy, layered placement, and readable motion while preserving the approved narration."
